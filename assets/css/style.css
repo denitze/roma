@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@font-face {
+    font-family: Santio Bold;
+    src: url(../fonts/Santio\ Bold.otf);
+}
+
+
+body {
+    font-family: Santio Bold;
+    height:100vh;
+    margin:0;
+    color:#efefef;
+    background: url(../img/cleo-topper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: right;
+    margin:2% 7% 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-bottom:2px;
+    border-bottom:solid 1px #e7bc0e;
+    letter-spacing: .2rem;
+}
+nav img {
+    height:2.5vh;
+    margin-right:2%;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 38vh 70% 0 7%;
+}
+
+.cloe p {
+    margin-left: 7%;
+    font-family: 'Mr Dafoe', cursive;
+    color: #e7bc0e;
+    font-size: 3rem;
+    margin-bottom: 30vh;
+}
+
+#arrow {
+    font-family: 'Architects Daughter', cursive;
+    margin-left:1%;
+}
+
+.indigenous {
+margin:0 20% 0 30%;
+font-size: 3rem;
+color:#6bc1a3;
+line-height: 4.5rem;
+margin-bottom: 30vh;
+}
+
+.background {
+    color:#efefef;
+    background: #333;
+}
+
+.numbers {
+    margin-left: 7%;
+}
+
+article {
+    margin-bottom:30vh;
+}
+
+article:nth-of-type(1) {
+    color: #e7bc0e
+}
+
+article:nth-of-type(2) {
+    color: #cb91b6
+}
+
+article:nth-of-type(3) {
+    color: #6bc1a3;
+}
+
+article img {
+    height:18vh;
+    margin-bottom:3vh;
+
+}
+
+.headings {
+    font-size: 18rem;
+    margin:0;
+}
+
+h3 {
+    font-size: 4rem;
+    margin:0;
+}
+
+.unsung-heroines {
+    color:#7eb8e1;
+    font-size: 3rem;
+    margin-left:40%;
+    margin-right:15%;
+    line-height: 4.5rem;
+    padding-bottom:10vh;
+}
+
+#picture-only {
+    position:relative;
+    background: url(../img/see.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:180vh;
+}
+
+#picture-only img {
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+
+section:last-of-type {
+    background:#000;
+    height:100vh;
+}
+
+section:last-of-type p {
+    margin:0 42% 10vh 7%;
+    padding-top:20vh;
+    font-size: 8rem;
+}
+
+section:last-of-type a {
+font-size: 1.5rem;
+border: 1px solid #fff;
+padding:1rem 2rem;
+margin-left:7%;
+}
+
+section:last-of-type a:hover {
+    box-shadow: 3px 3px 3px white;
+}
+
+footer {
+    background:#000; 
+    text-align:center;
+    padding-bottom:2vh;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: #6bc1a3
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff 
+
+font-family: 'Mr Dafoe', cursive;*/
